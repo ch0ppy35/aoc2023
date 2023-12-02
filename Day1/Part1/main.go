@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("calibration-codes.txt")
+	file, err := os.Open("input.txt")
 	if err != nil {
 		log.Fatal("Can't open file: ", err)
 	}
